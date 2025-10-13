@@ -1,0 +1,9 @@
+body { font-family: system-ui, Arial; margin:0; background:#fafafa; }
+nav { display:flex; gap:12px; padding:12px; background:#fff; border-bottom:1px solid #ddd; }
+.container { padding:16px; }
+.grid { list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
+.card { background:#fff; border:1px solid #ddd; padding:12px; border-radius:8px; }
+.compare { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+form input, form textarea, form button { display:block; margin:8px 0; width:100%; padding:8px; }
+table { width:100%; border-collapse:collapse; }
+td, th { border:1px solid #ddd; padding:8px; }
