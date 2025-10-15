@@ -1,9 +1,5 @@
 -- Reset schema cleanly
-DROP DATABASE IF EXISTS car_marketplace;
-CREATE DATABASE car_marketplace
-  DEFAULT CHARACTER SET utf8mb4
-  DEFAULT COLLATE utf8mb4_0900_ai_ci;
-USE car_marketplace;
+USE autotrade;
 
 -- USERS
 DROP TABLE IF EXISTS users;
